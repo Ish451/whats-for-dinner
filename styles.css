@@ -181,10 +181,6 @@ form {
   flex-direction: column;
 }
 
-.error-message {
-  color: #ee5253;
-  margin-top: 20px;
-}
 
 .hidden {
   display: none;
