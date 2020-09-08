@@ -7,7 +7,7 @@ var select = document.querySelectorAll(".select");
 var currentDish;
 
 //EVENT LISTENERS:
-letsCookButton.addEventListener("click", displayDish);
+letsCookButton.addEventListener("click", randomDish);
 
 
 //FUNCTIONS:
@@ -28,7 +28,7 @@ function chooseDessert(){
   currentDish = desserts[getRandomIndex(desserts)];
 }
 
-function randomizeDish() {
+function randomDish() {
   var randomSideDish = chooseSide();
   var randomMainDish = chooseMains();
   var randomDessert = chooseDessert();
